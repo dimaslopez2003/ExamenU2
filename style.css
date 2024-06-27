@@ -39,3 +39,26 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h3 {
+    margin: 16px 0;
+    font-size: 1.25rem;
+}
+.card p {
+    margin: 0 16px 16px;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
